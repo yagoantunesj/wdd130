@@ -16,7 +16,7 @@ h1 {
     color: darkblue;
 }
 
-main img {
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -25,7 +25,7 @@ main img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 main {
@@ -39,15 +39,6 @@ aside {
     border: 1px solid rgb(0 0 0 / 0.2);
     background-color: #eee;
     text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-aside p {
-    padding: 0;
 }
 
 footer {
