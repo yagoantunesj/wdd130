@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Entre em contato conosco para tirar dúvidas, solicitar informações ou enviar sugestões. Estamos à disposição para ajudar!">
+    <meta name="author" content="Yago Antunes Jorge">
+
+    <link rel="stylesheet" href="estilos/rafting-contato.css">
+
+    <title>Contato - Rafting</title>
+</head>
+
+<body>
+    <header>
+        <img src="imagens/logo-rafting.png" alt="logo-rafting">
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Companhia de Raftinf em Corredeiras</h1>
+        <p>123 Rua Principal do Rio</p>
+        <p>Foz do Iguaçu, Paraná</p>
+        <p>+55 45 99999-9999</p>
+        <p>info@rafting.com</p>
+
+        <section class="contato">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d130887.0315944741!2d-54.63334040233224!3d-25.57925989224693!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94f690ebae530a43%3A0x21979473b4c4a952!2sFoz%20do%20Igua%C3%A7u%2C%20PR!3m2!1d-25.516510099999998!2d-54.585403!5e1!3m2!1spt-PT!2sbr!4v1795540938550!5m2!1spt-PT!2sbr"
+                  width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+            <form>
+
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite aqui" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite aqui" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Propósito da Mensagem</label>
+
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="proposito" value="duvida" checked>
+                            Dúvida Geral
+                        </label>
+
+                        <label>
+                            <input type="radio" name="proposito" value="reserva">
+                            Pergunta sobre Reserva
+                        </label>
+
+                        <label>
+                            <input type="radio" name="proposito" value="sugestao">
+                            Sugestão
+                        </label>
+                    </div>
+                </div>
+
+                <div class="message">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Digite aqui"
+                      required></textarea>
+                </div>
+
+                <div class="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">
+                        Por favor, me inscreva na newsletter mensal
+                    </label>
+                </div>
+
+                <button type="submit">Entrar em Contato!</button>
+
+            </form>
+        </section>
+
+
+        <section>
+            <h2>Estamos Aqui para Servi-lo</h2>
+            <div class="funcionarios">
+                <figure>
+                    <img src="imagens/funcionario.webp" alt="">
+                    <figcaption>Instrutor</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/funcionario.webp" alt="">
+                    <figcaption>Gerente</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/funcionario.webp" alt="">
+                    <figcaption>Recepcionista</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2026 - Rafting - Yago Antunes Jorge</p>
+        <nav class="redes-sociais">
+            <a href="https://facebook.com">
+                <img src="imagens/icon-facebook.png" alt="Ícone do Facebook">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="imagens/icon-linkedin.png" alt="Ícone do LinkedIn">
+            </a>
+            <a href="https://instagram.com">
+                <img src="imagens/icon-instagram.png" alt="Ícone do Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
