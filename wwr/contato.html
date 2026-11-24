@@ -8,9 +8,9 @@
       content="Entre em contato conosco para tirar dúvidas, solicitar informações ou enviar sugestões. Estamos à disposição para ajudar!">
     <meta name="author" content="Yago Antunes Jorge">
 
-    <link rel="stylesheet" href="estilos/rafting-contato.css">
+    <link rel="stylesheet" href="estilos/rafting.css">
 
-    <title>Contato - Rafting</title>
+    <title>Fale Conosco - Rafting</title>
 </head>
 
 <body>
@@ -28,16 +28,18 @@
 
     <main>
         <h1>Companhia de Raftinf em Corredeiras</h1>
-        <p>123 Rua Principal do Rio</p>
-        <p>Foz do Iguaçu, Paraná</p>
-        <p>+55 45 99999-9999</p>
-        <p>info@rafting.com</p>
+        <div class="dados-contato">
+            <p>123 Rua Principal do Rio</p>
+            <p>Foz do Iguaçu, Paraná</p>
+            <p>+55 45 99999-9999</p>
+            <p>info@rafting.com</p>
+        </div>
 
         <section class="contato">
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d130887.0315944741!2d-54.63334040233224!3d-25.57925989224693!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94f690ebae530a43%3A0x21979473b4c4a952!2sFoz%20do%20Igua%C3%A7u%2C%20PR!3m2!1d-25.516510099999998!2d-54.585403!5e1!3m2!1spt-PT!2sbr!4v1795540938550!5m2!1spt-PT!2sbr"
-                  width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                  allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
@@ -58,17 +60,17 @@
 
                     <div class="radio">
                         <label>
-                            <input type="radio" name="proposito" value="duvida" checked>
+                            <input id="radio1" type="radio" name="proposito" value="duvida" checked>
                             Dúvida Geral
                         </label>
 
                         <label>
-                            <input type="radio" name="proposito" value="reserva">
+                            <input id="radio2" type="radio" name="proposito" value="reserva">
                             Pergunta sobre Reserva
                         </label>
 
                         <label>
-                            <input type="radio" name="proposito" value="sugestao">
+                            <input id="radio3" type="radio" name="proposito" value="sugestao">
                             Sugestão
                         </label>
                     </div>
