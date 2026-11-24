@@ -234,10 +234,6 @@ figcaption {
     text-align: center;
 }
 
-section {
-    border: 1px solid rgb(0 0 0 / 0.1);
-}
-
 footer {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
